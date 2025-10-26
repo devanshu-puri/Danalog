@@ -1,0 +1,26 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Node dependencies
+node_modules/
+npm-debug.log*
+
+# Composer dependencies
+vendor/
+composer.lock
+
+# Logs and caches
+*.log
+*.cache
+
+# WordPress generated content
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/advanced-cache.php
+wp-content/debug.log
+
+# Environment overrides
+.env
+.env.*
